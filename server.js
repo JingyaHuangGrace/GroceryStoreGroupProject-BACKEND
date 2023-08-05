@@ -53,7 +53,8 @@ function initial() {
 }
 
 var corsOptions = {
-    origin: ["http://localhost:8081"],
+    //origin: ["http://localhost:8081"],
+    origin: ["https://team-unite-grocerystore.netlify.app"],
     credentials: true
 };
 
